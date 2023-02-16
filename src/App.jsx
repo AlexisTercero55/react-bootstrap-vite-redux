@@ -3,20 +3,20 @@ import reactLogo from './assets/react.svg'
 import './App.css';
 import { Button } from 'react-bootstrap';
 
-function App() {
+export default function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
       <div id='logos'>
         <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
+          <img src="./vite.svg" className="logo" alt="Vite logo" />
         </a>
         <a href="https://reactjs.org" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
         <a href="https://getbootstrap.com/" target="_blank">
-          <img src="/Bootstrap.svg" className="logo" alt="Boostrap logo" />
+          <img src="./Bootstrap.svg" className="logo" alt="Boostrap logo" />
         </a>
       </div>
       <h1>Vite + React + Bootstrap </h1>
@@ -34,6 +34,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      {/* some demos */}
       <Button variant="primary">Primary</Button>{' '}
       <Button variant="secondary">Secondary</Button>{' '}
       <Button variant="success">Success</Button>{' '}
@@ -45,5 +46,3 @@ function App() {
     </div>
   )
 }
-
-export default App
