@@ -8,7 +8,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <div id='logos'>
+      <div id='logos'>{/* //TODO : write Logos component */}
         <a href="https://vitejs.dev" target="_blank">
           <img src="./vite.svg" className="logo" alt="Vite logo" />
         </a>
