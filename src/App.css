@@ -1,13 +1,13 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  /* line-height: 1.5; */
+  /* font-weight: 400; */
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
 
-  font-synthesis: none;
+  /* font-synthesis: none; */
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -32,21 +32,25 @@ body {
 }
 
 .App{
-  /* border: solid red 2px; */
-  color: aliceblue;
+  color: #dfdddd;
 }
 
+/* .Counter{
+  border: solid red 2px;
+} */
+
 .logo {
+  /* border: #072cffaa solid 2px; */
   height: 6em;
-  padding: 1.5em;
+  padding: 1em;
   will-change: filter;
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 4em #646cffd8);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #072cffaa);
+  filter: drop-shadow(0 0 4em #61dafbaa);
   /* 61dafbaa react color */
 }
 
@@ -63,13 +67,12 @@ body {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
+  /* a:nth-of-type(3) .logo {
+    animation: logo-spin infinite 10s linear;
+  } */
 }
 
-.cardd {
+.card_c {
   padding: 2em;
   /* border: solid red 2px; */
-}
-
-.read-the-docs {
-  color: #888;
 }

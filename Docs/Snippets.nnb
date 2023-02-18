@@ -1,0 +1,25 @@
+{
+    "cells": [
+        {
+            "language": "markdown",
+            "source": [
+                "**Reference**\r\n\r\n* [Ravi Sharma](https://javascriptcentric.medium.com/redux-toolkit-react-counter-app-af84a84a223d)"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "In case if you are using other reduces than you have to use combineReducers from redux as below:"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "import { configureStore } from \"@reduxjs/toolkit\";\r\nimport counterReducer1 from \"path\";\r\nimport counterReducer2 from \"path\";\r\n\r\nimport { combineReducers } from \"redux\";\r\n\r\nconst reducer = combineReducers({\r\n  // put all your reducers here!\r\n  counterReducer1,\r\n  counterReducer2,\r\n});\r\n\r\nexport const store = configureStore({\r\n  reducer,\r\n});"
+            ],
+            "outputs": []
+        }
+    ]
+}
