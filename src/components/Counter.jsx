@@ -18,7 +18,7 @@ const Counter = () => {
     <div className="Counter">
       <div className='container'>
         <Button
-          className=" btn-lg mx-2"
+          className="btn-lg mx-2 fw-bolder fs-2"
           aria-label="Decrement value"
           onClick={() => {
             dispatch(decrement());
@@ -27,14 +27,14 @@ const Counter = () => {
         >
           -
         </Button>
-        <span className='h2 px-2 mx-2 bg-gradient rounded' >{count}</span>
+        <span className='fs-2 px-2 mx-2 bg-gradient rounded' >{count}</span>
         <Button
           aria-label="Increment value"
           onClick={() => {
             dispatch(increment());
           }}
           variant="success"
-          className=" btn-lg mx-2"
+          className="btn-lg mx-2 fw-bolder fs-2"
         >
           +
         </Button>
@@ -54,7 +54,7 @@ const Counter = () => {
           </Button>
           <input
             type="text"
-            className='col rounded mx-2 text-center'
+            className='col rounded mx-2 text-center fs-1 fw-bold'
             aria-label="Set amount"
             value={Amount}
             onChange={e => setAmount(e.target.value)}
