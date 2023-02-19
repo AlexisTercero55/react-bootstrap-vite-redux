@@ -77,4 +77,4 @@ Error generating stack: `+o.message+`
  * @github  https://github.com/AlexisTercero55
  * @mail    alexistercero55@gmail.com
  * @license MPL-2.0
- */const Xh=$h({reducer:{counter:Qh}});ru.createRoot(document.getElementById("root")).render(R(Ya.StrictMode,{children:R(Xm,{store:Xh,children:R(Yh,{})})}));
+ */const Xh=$h({reducer:{counter:Qh},devTools:!0});ru.createRoot(document.getElementById("root")).render(R(Ya.StrictMode,{children:R(Xm,{store:Xh,children:R(Yh,{})})}));
