@@ -13,35 +13,48 @@ import './css/Grids.css';
 export default function App() {
 
   useEffect(() => {
-
-    const handleOnMouseMove = e =>
-    {
-      // console.log(e);
-      const { currentTarget : target } = e;
-      const rect = target.getBoundingClientRect(),
-                   x = e.clientX - rect.left,
-                   y = e.clientY - rect.top;
-      // console.log(rect);
-
-      target.style.setProperty("--mouse-x",`${x}px`);
-      target.style.setProperty("--mouse-y",`${y}px`);
-    }
-    
-    for (const card of document.querySelectorAll(".card")) 
-    {
-      card.onmousemove = e => handleOnMouseMove(e);
-      
-    }
-    
-    // return () => {
-    //   cleanup
-    // };
+    const handleMouseMove = (e) => {
+      for (const card of document.getElementsByClassName("card")) {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+  
+        card.style.setProperty("--mouse-x", `${x}px`);
+        card.style.setProperty("--mouse-y", `${y}px`);
+        // console.log('uwu');
+      }
+    };
+  
+    document.getElementById("cards").addEventListener("mousemove", handleMouseMove);
+  
+    return () => {
+      document.getElementById("cards").removeEventListener("mousemove", handleMouseMove);
+    };
   }, []);
+  
+  // useEffect(() => {
+
+  //   document.getElementById("cards").onmousemove = e => {
+  //     for(const card of document.getElementsByClassName("card")) {
+  //       const rect = card.getBoundingClientRect(),
+  //             x = e.clientX - rect.left,
+  //             y = e.clientY - rect.top;
+    
+  //       card.style.setProperty("--mouse-x", `${x}px`);
+  //       card.style.setProperty("--mouse-y", `${y}px`);
+  //     };
+  //   }
+
+    
+  //   // return () => {
+  //   //   cleanup
+  //   // };
+  // }, []);
 
   return (
     // <III_GridCards></III_GridCards>
     <>
-    <div className='cards'>
+    <div id='cards'>
       <div className="card"></div>
       <div className="card"></div>
       <div className="card"></div>
