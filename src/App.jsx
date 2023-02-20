@@ -7,11 +7,17 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 import './App.css';
-import III_GridCards from './components/GridCards_Bootstrap';
+import './css/Grids.css';
+// import III_GridCards from './components/GridCards_Bootstrap';
 
 export default function App() {
 
   return (
-    <III_GridCards></III_GridCards>
+    // <III_GridCards></III_GridCards>
+    <>
+      <div className='cards'>
+sdfsdf
+      </div>
+    </>
   );
 }
