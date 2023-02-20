@@ -6,7 +6,7 @@
  */
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
+import App from './apps/CounterApp'
 //import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Redux Toolkit setup
