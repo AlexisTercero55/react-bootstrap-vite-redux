@@ -1,15 +1,17 @@
-
-
-.App{
+/* .App{
   color: #dfdddd;
+} */
+
+h1{
+  color: #898484bd;
 }
 
 /* .Counter{
   border: solid red 2px;
 } */
 
-.logo {
-  /* border: #072cffaa solid 2px; */
+/* .logo {
+  border: #072cffaa solid 2px;
   height: 6em;
   padding: 1em;
   will-change: filter;
@@ -20,10 +22,10 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 4em #61dafbaa);
-  /* 61dafbaa react color */
-}
+  61dafbaa react color
+} */
 
-@keyframes logo-spin {
+/* @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -36,12 +38,12 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-  /* a:nth-of-type(3) .logo {
+  a:nth-of-type(3) .logo {
     animation: logo-spin infinite 10s linear;
-  } */
-}
+  }
+} */
 
-.card_c {
+/* .card_c {
   padding: 2em;
-  /* border: solid red 2px; */
-}
+  border: solid red 2px;
+} */
