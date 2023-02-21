@@ -22,6 +22,11 @@ export default function CardWithCanvas() {
   return (
     <div className="card">
       <div className="card-border"></div>
+      <div className="card-description"
+      style={{zIndex:4, color:'#f5f5f5'}}>
+        <h3>Card Title</h3>
+        <p>Description text goes here.</p>
+      </div>
       <div className="card-content">
         <Canvas>
           <ambientLight />
