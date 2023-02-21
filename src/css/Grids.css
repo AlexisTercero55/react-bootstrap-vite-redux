@@ -77,14 +77,17 @@ z-index: 1;
 .card > .card-content {
     background-color: var(--card-color);
     border-radius: inherit;
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     /* flex-grow: 1; */
     inset: 1px;
     /* padding: 10px; */
     position: absolute;
     z-index: 2;
+    /* border: gold solid 3px; */
   }
+
+
 
 /* -- ↓ ↓ ↓ some responsiveness ↓ ↓ ↓ -- */
 
