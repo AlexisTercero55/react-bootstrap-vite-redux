@@ -1,5 +1,7 @@
 :root{
     --card-color: rgb(23, 23, 23);
+    --color-mouse: rgba(37, 216, 13, 0.143);
+    --color-mouse-border: rgba(37, 216, 13, 0.711);
 }
 
 #cards{
@@ -57,7 +59,7 @@
 .card::before {
     background: radial-gradient(
         800px circle at var(--mouse-x) var(--mouse-y), 
-        rgba(255, 255, 255, 0.25),
+        var(--color-mouse),/* rgba(255, 255, 255, 0.25), */
         transparent 40%
     );
     z-index: 3;
@@ -66,7 +68,7 @@
 .card::after {  
 background: radial-gradient(
     600px circle at var(--mouse-x) var(--mouse-y), 
-    rgba(255, 255, 255, 0.4),
+    var(--color-mouse-border),/* rgba(255, 255, 255, 0.4), */
     transparent 40%
 );
 z-index: 1;
