@@ -12,8 +12,10 @@ import './css/Grids.css';
 export default function App() {
 
   useEffect(() => {
-    const handleMouseMove = (e) => {
-      for (const card of document.getElementsByClassName("card")) {
+    const handleMouseMove = (e) => 
+    {
+      for (const card of document.getElementsByClassName("card")) 
+      {
         const rect = card.getBoundingClientRect();
         const x = e.clientX - rect.left;
         const y = e.clientY - rect.top;
@@ -36,31 +38,43 @@ export default function App() {
     //CSS version
     <>
     <div id='cards'>
-      <div className="card">
-      <div className="card-border"></div>
-        <div className="card-content"></div>
+    {[...Array(6)].map((_, index) => (
+      <div className="card" key={index}>
+        <div className="card-border"></div>
+        <div className="card-content">
+
+        </div>
+        {/* {console.log('uwu')} */}
       </div>
-      <div className="card">
-      <div className="card-border"></div>
-        <div className="card-content"></div>
-      </div>
-      <div className="card">
-      <div className="card-border"></div>
-        <div className="card-content"></div>
-      </div>
-      <div className="card">
-      <div className="card-border"></div>
-        <div className="card-content"></div>
-      </div>
-      <div className="card">
-      <div className="card-border"></div>
-        <div className="card-content"></div>
-      </div>
-      <div className="card">
-      <div className="card-border"></div>
-        <div className="card-content"></div>
-      </div>
-    </div>
+    ))}
+  </div>
     </>
   );
 }
+
+/* <div id='cards'>
+      <div className="card">
+      <div className="card-border"></div>
+        <div className="card-content"></div>
+      </div>
+      <div className="card">
+      <div className="card-border"></div>
+        <div className="card-content"></div>
+      </div>
+      <div className="card">
+      <div className="card-border"></div>
+        <div className="card-content"></div>
+      </div>
+      <div className="card">
+      <div className="card-border"></div>
+        <div className="card-content"></div>
+      </div>
+      <div className="card">
+      <div className="card-border"></div>
+        <div className="card-content"></div>
+      </div>
+      <div className="card">
+      <div className="card-border"></div>
+        <div className="card-content"></div>
+      </div>
+    </div> */
