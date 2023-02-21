@@ -38,46 +38,13 @@ export default function App() {
     // <III_GridCards></III_GridCards> //Bootstrap version
     //CSS version
     <>
+    <h1>Alexis Tercero</h1>
     <div id='cards'>
       {[...Array(6)].map((_, index) => (
         <CardWithCanvas key={index}>
-
         </CardWithCanvas>
-        /* <div className="card" key={index}>
-          <div className="card-border"></div>
-          <div className="card-content">
-
-          </div>
-        </div> */
       ))}
     </div>
     </>
   );
 }
-
-/* <div id='cards'>
-      <div className="card">
-      <div className="card-border"></div>
-        <div className="card-content"></div>
-      </div>
-      <div className="card">
-      <div className="card-border"></div>
-        <div className="card-content"></div>
-      </div>
-      <div className="card">
-      <div className="card-border"></div>
-        <div className="card-content"></div>
-      </div>
-      <div className="card">
-      <div className="card-border"></div>
-        <div className="card-content"></div>
-      </div>
-      <div className="card">
-      <div className="card-border"></div>
-        <div className="card-content"></div>
-      </div>
-      <div className="card">
-      <div className="card-border"></div>
-        <div className="card-content"></div>
-      </div>
-    </div> */
