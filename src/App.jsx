@@ -6,6 +6,7 @@
  */
 import { useState, useEffect } from 'react';
 import './App.css';
+import CardWithCanvas from './components/CardwithCanvas';
 import './css/Grids.css';
 // import III_GridCards from './components/GridCards_Bootstrap';
 
@@ -38,16 +39,18 @@ export default function App() {
     //CSS version
     <>
     <div id='cards'>
-    {[...Array(6)].map((_, index) => (
-      <div className="card" key={index}>
-        <div className="card-border"></div>
-        <div className="card-content">
+      {[...Array(6)].map((_, index) => (
+        <CardWithCanvas key={index}>
 
-        </div>
-        {/* {console.log('uwu')} */}
-      </div>
-    ))}
-  </div>
+        </CardWithCanvas>
+        /* <div className="card" key={index}>
+          <div className="card-border"></div>
+          <div className="card-content">
+
+          </div>
+        </div> */
+      ))}
+    </div>
     </>
   );
 }
