@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="store-comparisons.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.1089995"
+     inkscape:cx="576.10254"
+     inkscape:cy="248.69612"
+     inkscape:window-width="958"
+     inkscape:window-height="1008"
+     inkscape:window-x="-7"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#800080;stroke-width:0.264583"
+       x="29.983608"
+       y="39.769054"
+       id="text186"><tspan
+         sodipodi:role="line"
+         id="tspan184"
+         x="29.983608"
+         y="39.769054"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#800080;stroke-width:0.264583">Plain redux store</tspan></text>
+    <ellipse
+       style="fill:#b58bf7;stroke:#688787;stroke-width:0.679547;fill-opacity:1"
+       id="path240"
+       cx="39.706329"
+       cy="70.003571"
+       rx="32.623608"
+       ry="28.044518" />
+    <ellipse
+       style="fill:#d4aa00;stroke:#688787;stroke-width:0.564999"
+       id="path402"
+       cx="23.899067"
+       cy="67.494484"
+       rx="11.353626"
+       ry="12.294534" />
+    <ellipse
+       style="fill:#00ff00;stroke:#688787;stroke-width:0.564999"
+       id="path612"
+       cx="55.199947"
+       cy="67.682671"
+       rx="12.043626"
+       ry="13.360897" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';fill:#800080;stroke-width:0.264583"
+       x="18.441801"
+       y="67.369026"
+       id="text720"><tspan
+         sodipodi:role="line"
+         id="tspan718"
+         x="18.441801"
+         y="67.369026"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';fill:#800080;stroke-width:0.264583">reducers</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';fill:#800080;stroke-width:0.264583"
+       x="51.436314"
+       y="67.494476"
+       id="text724"><tspan
+         sodipodi:role="line"
+         id="tspan722"
+         x="51.436314"
+         y="67.494476"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';fill:#800080;stroke-width:0.264583">actions</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="55.199947"
+       y="35.503601"
+       id="text791"><tspan
+         sodipodi:role="line"
+         id="tspan789"
+         x="55.199947"
+         y="35.503601"
+         style="stroke-width:0.264583"></tspan></text>
+    <ellipse
+       style="fill:#b58bf7;fill-opacity:1;stroke:none;stroke-width:0.583897"
+       id="path1415"
+       cx="151.54895"
+       cy="70.379936"
+       rx="47.035961"
+       ry="45.02869" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';fill:#b58bf7;fill-opacity:1;stroke-width:0.264583"
+       x="128.33987"
+       y="22.707251"
+       id="text1419"><tspan
+         sodipodi:role="line"
+         id="tspan1417"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611px;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';fill:#b58bf7;fill-opacity:1;stroke-width:0.264583"
+         x="128.33987"
+         y="22.707251">Store ReduxToolkit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="133.2326"
+       y="105.63263"
+       id="text1441"><tspan
+         sodipodi:role="line"
+         id="tspan1439"
+         style="stroke-width:0.264583"
+         x="133.2326"
+         y="105.63263" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';fill:#f2be3c;fill-opacity:1;stroke-width:0.264583"
+       x="133.2326"
+       y="109.0199"
+       id="text1445"><tspan
+         sodipodi:role="line"
+         id="tspan1443"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611px;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';fill:#f2be3c;fill-opacity:1;stroke-width:0.264583"
+         x="133.2326"
+         y="109.0199">configureStore</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';fill:#f2be3c;fill-opacity:1;stroke-width:0.264583"
+       x="124.45078"
+       y="34.625423"
+       id="text1471"><tspan
+         sodipodi:role="line"
+         id="tspan1469"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611px;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';fill:#f2be3c;fill-opacity:1;stroke-width:0.264583"
+         x="124.45078"
+         y="34.625423">      <tspan
+   style="fill:#0000ff"
+   id="tspan1479">interface</tspan> </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611px;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';fill:#f2be3c;fill-opacity:1;stroke-width:0.264583"
+         x="124.45078"
+         y="40.358063"
+         id="tspan1477">ConfigureStoreOptions</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="180.27802"
+       y="41.274506"
+       id="text1475"><tspan
+         sodipodi:role="line"
+         id="tspan1473"
+         style="stroke-width:0.264583"
+         x="180.27802"
+         y="41.274506" /></text>
+    <ellipse
+       style="fill:#6666ff;fill-opacity:1;stroke:none;stroke-width:0.630437"
+       id="path1561"
+       cx="151.03616"
+       cy="72.951759"
+       rx="42.383213"
+       ry="30.264524" />
+    <ellipse
+       style="fill:#d7ffff;fill-opacity:1;stroke:none;stroke-width:0.547039"
+       id="path1615"
+       cx="122.44351"
+       cy="72.638115"
+       rx="11.048969"
+       ry="16.694418" />
+    <ellipse
+       style="fill:#d7ffff;fill-opacity:1;stroke:none;stroke-width:0.647075"
+       id="path1617"
+       cx="150.41986"
+       cy="49.115406"
+       rx="14.386222"
+       ry="4.5380487" />
+    <ellipse
+       style="fill:#d7ffff;fill-opacity:1;stroke:none;stroke-width:0.696841"
+       id="path1619"
+       cx="149.91805"
+       cy="72.010826"
+       rx="13.984975"
+       ry="16.995882" />
+    <ellipse
+       style="fill:#d7ffff;fill-opacity:1;stroke:none;stroke-width:0.601595"
+       id="path1621"
+       cx="177.76895"
+       cy="72.07357"
+       rx="12.025328"
+       ry="16.22805" />
+    <ellipse
+       style="fill:#d7ffff;fill-opacity:1;stroke:none;stroke-width:0.830458"
+       id="ellipse1728"
+       cx="151.29805"
+       cy="95.533546"
+       rx="21.194523"
+       ry="5.0736294" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:consolas;-inkscape-font-specification:consolas;fill:#c60000;fill-opacity:1;stroke-width:0.264583"
+       x="141.88895"
+       y="50.307228"
+       id="text1766"><tspan
+         sodipodi:role="line"
+         id="tspan1764"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:consolas;-inkscape-font-specification:'consolas Bold';fill:#f2be3c;fill-opacity:1;stroke-width:0.264583"
+         x="141.88895"
+         y="50.307228">devTools</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:consolas;-inkscape-font-specification:consolas;fill:#c60000;fill-opacity:1;stroke-width:0.264583"
+       x="113.78715"
+       y="73.892662"
+       id="text1770"><tspan
+         sodipodi:role="line"
+         id="tspan1768"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:consolas;-inkscape-font-specification:'consolas Bold';fill:#f2be3c;fill-opacity:1;stroke-width:0.264583"
+         x="113.78715"
+         y="73.892662">reducer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:consolas;-inkscape-font-specification:consolas;fill:#c60000;fill-opacity:1;stroke-width:0.264583"
+       x="138.37624"
+       y="73.89267"
+       id="text1784"><tspan
+         sodipodi:role="line"
+         id="tspan1782"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:consolas;-inkscape-font-specification:'consolas Bold';fill:#f2be3c;fill-opacity:1;stroke-width:0.264583"
+         x="138.37624"
+         y="73.89267">middleware</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:consolas;-inkscape-font-specification:consolas;fill:#c60000;fill-opacity:1;stroke-width:0.264583"
+       x="167.23076"
+       y="73.89267"
+       id="text1880"><tspan
+         sodipodi:role="line"
+         id="tspan1878"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:consolas;-inkscape-font-specification:'consolas Bold';fill:#f2be3c;fill-opacity:1;stroke-width:0.264583"
+         x="167.23076"
+         y="73.89267">enhancers</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:consolas;-inkscape-font-specification:consolas;fill:#c60000;fill-opacity:1;stroke-width:0.264583"
+       x="134.48714"
+       y="97.10173"
+       id="text1926"><tspan
+         sodipodi:role="line"
+         id="tspan1924"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:consolas;-inkscape-font-specification:'consolas Bold';fill:#f2be3c;fill-opacity:1;stroke-width:0.264583"
+         x="134.48714"
+         y="97.10173">preloadedState</tspan></text>
+  </g>
+</svg>

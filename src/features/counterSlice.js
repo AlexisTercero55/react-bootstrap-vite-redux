@@ -1,3 +1,9 @@
+/** 03/03/23 : CDMX/México.
+ * @author  @AlexisTercero55
+ * @github  https://github.com/AlexisTercero55
+ * @mail    alexistercero55@gmail.com
+ * @license MPL-2.0
+ */
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialStateValues = {
@@ -60,4 +66,4 @@ export const incrementAsync = (amount) => (dispatch) => {
     }, 1000)
 }
 
-export default counterSlice.reducer;
+export default counterSlice.reducer;// imported as counterReducer (optional)
