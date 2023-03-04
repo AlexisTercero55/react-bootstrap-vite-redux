@@ -9,8 +9,12 @@ import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchWeather } from '../../features/weatherSlice';
 
+import { Form, Button, Spinner, Alert } from 'react-bootstrap';
+import '../../css/weather.scss';
+import { Github } from 'react-bootstrap-icons';
+
 function Weather() {
-  const [city, setCity] = useState('Iztapalapa');
+  const [city, setCity] = useState('');
   const dispatch = useDispatch();
   const weather = useSelector((state) => state.weather);
 
@@ -21,25 +25,39 @@ function Weather() {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          value={city}
-          onChange={(e) => setCity(e.target.value)}
-        />
-        <button type="submit">Get Weather</button>
-      </form>
-      {weather.loading && <div>Loading...</div>}
+    <div className="weather-container">
+      {/* <p className="title1">uwu</p> */}
+      <h1>Redux Toolkit Weather App</h1>
+      <h4>
+        <a href='https://github.com/AlexisTercero55'>
+        <Github/>alexistercero55
+        </a>
+      </h4>
+      <Form onSubmit={handleSubmit}>
+        <Form.Group controlId="formBasicEmail">
+          <Form.Label >City</Form.Label>
+          <Form.Control
+            type="text"
+            value={city}
+            onChange={(e) => setCity(e.target.value)}
+            placeholder="Enter city"
+            className="text-center"
+          />
+        </Form.Group>
+
+        <Button variant="primary" type="submit">
+          Get Weather
+        </Button>
+      </Form>
+
+      {weather.loading && <Spinner animation="border" />}
       {weather.data && (
-        <div>
-          <p>{weather.data.name}</p>
-          <p>{weather.data.main.temp}°</p>
-          {/* {console.log(weather.data)} */}
+        <div className="weather-data">
+          <p className="city-name">{weather.data.name}</p>
+          <p className="temperature">{weather.data.main.temp}°C</p>
         </div>
-        )
-      }
-      {weather.error && <div>{weather.error}</div>}
+      )}
+      {weather.error && <Alert variant="danger">{weather.error}</Alert>}
     </div>
   );
 }

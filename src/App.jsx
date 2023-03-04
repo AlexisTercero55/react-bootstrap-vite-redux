@@ -17,7 +17,7 @@ export default function App() {
 
   
   return (
-    <Container fluid={true} className="border border-success">
+    <Container fluid={true} >
       <Wheather  ></Wheather>
     </Container>
   );
