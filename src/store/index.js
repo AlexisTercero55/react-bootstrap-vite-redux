@@ -6,8 +6,11 @@
  */
 
 import { configureStore } from '@reduxjs/toolkit';
+import weatherReducer from '../features/weatherSlice';
 
 export default configureStore({
-    reducer: {},
+    reducer: {/**slice reducers*/
+        weather : weatherReducer,
+    },
     devTools: true,
 })
