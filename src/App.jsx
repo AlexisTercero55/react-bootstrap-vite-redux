@@ -7,15 +7,8 @@
 
 import Container from 'react-bootstrap/Container';
 import Wheather from './components/app/wheather';
-// import { useState, useEffect } from 'react';
-// import './App.css';
-// import CardWithCanvas from './components/CardwithCanvas';
-// import './css/Grids.css';
-// import III_GridCards from './components/GridCards_Bootstrap';
 
 export default function App() {
-
-  
   return (
     <Container fluid={true} >
       <Wheather  ></Wheather>

@@ -6,17 +6,17 @@
  */
 
 import React, { useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchWeather } from '../../features/weatherSlice';
+import { useDispatch, useSelector } from 'react-redux';//!To Doc
+import { fetchWeather } from '../../features/weatherSlice';//!To Doc =>
 
 import { Form, Button, Spinner, Alert } from 'react-bootstrap';
 import '../../css/weather.scss';
 import { Github } from 'react-bootstrap-icons';
 
 function Weather() {
-  const [city, setCity] = useState('');
+  const [city, setCity] = useState('');//!To Doc relation with redux
   const dispatch = useDispatch();
-  const weather = useSelector((state) => state.weather);
+  const weather = useSelector((state) => state.weather);//!To Doc
 
   const handleSubmit = (e) => 
   {
@@ -26,9 +26,8 @@ function Weather() {
 
   return (
     <div className="weather-container">
-      {/* <p className="title1">uwu</p> */}
       <h1>Redux Toolkit Weather App</h1>
-      <h4>
+      <h4 className='contact'>
         <a href='https://github.com/AlexisTercero55'>
         <Github/>alexistercero55
         </a>
@@ -45,11 +44,13 @@ function Weather() {
           />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
+        <Button variant="primary"
+                className='mt-2' 
+                type="submit">
           Get Weather
         </Button>
       </Form>
-
+      {/* //!To Doc - conditional rendering */}
       {weather.loading && <Spinner animation="border" />}
       {weather.data && (
         <div className="weather-data">

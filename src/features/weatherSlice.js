@@ -10,40 +10,49 @@ import axios from 'axios';
 
 const API_KEY = import.meta.env.VITE_API_KEY;
 
+let initialState = { 
+  data: null, 
+  loading: false, 
+  error: null 
+};
+
 const weatherSlice = createSlice({
   name: 'weather',
-  initialState: { 
-    data: null, 
-    loading: false, 
-    error: null 
-  },
-  reducers: {
+  initialState,
+  reducers: {//!To Doc
+
     getWeatherStart(state) {
       state.loading = true;
       state.error = null;
     },
+
     getWeatherSuccess(state, action) {
       state.loading = false;
-    //   state.data = action.payload;
-        state.data = {
-            ...action.payload,
-            main: {
-            ...action.payload.main,
-            temp: Math.round(action.payload.main.temp - 273.15), // convert Kelvin to Celsius
-            },
-        };
+      state.data = {
+          ...action.payload,
+          main: {
+          ...action.payload.main,
+          temp: Math.round(action.payload.main.temp - 273.15), // convert Kelvin to Celsius
+          },
+      };
     },
+
     getWeatherFailure(state, action) {
       state.loading = false;
       state.error = action.payload;
-    //   state.data = null;
+      state.data = null;
     },
+
   },
 });
 
-export const { getWeatherStart, getWeatherSuccess, getWeatherFailure } =
-  weatherSlice.actions;
+export const { //!To Doc
+  getWeatherStart, 
+  getWeatherSuccess, 
+  getWeatherFailure 
+} = weatherSlice.actions;
 
+//!To Doc thunks (params) => async (dispatch) => {}
 export const fetchWeather = (city) => async (dispatch) => {
   try 
   {
@@ -53,7 +62,7 @@ export const fetchWeather = (city) => async (dispatch) => {
     );
     dispatch(getWeatherSuccess(response.data));
 
-  } catch (error) 
+  }catch (error) 
   {
     dispatch(getWeatherFailure(error.message));
   }
